@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="more about the author">
+	<meta name="keywords" content="portfolio, programming">
+	<meta name="author" content="Matas Backevicius">
+<title>Java Application</title>
+</head>
+<body>
+
+
+
+
+	
+	
+
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<link rel="stylesheet" type="text/html" href="index.html">
+	<link rel="stylesheet" type="text/html" href="about.html">
+	<link rel="stylesheet" type="text/html" href="feedback.html">
+	<link rel="stylesheet" type="text/html" href="https://mugdass.github.io/gamedevelopment.com/gamedevelopment.html">
+	
+
+
+	<div class="topnav">
+	
+		<a href="https://mugdass.github.io/-matasbackevicius.github.io/#index.html" class="button">Home</a>
+		<a href="https://mugdass.github.io/-matasbackevicius.github.io/about.html" class="button">About the Author</a>
+		<a href="https://mugdass.github.io/-matasbackevicius.github.io/feedback.html" class="button">Provide Feedback</a>
+		<a href="https://mugdass.github.io/gamedevelopment.com/gamedevelopment.html" class="button">Game Development</a>
+		<a href="https://mugdass.github.io/allotherwork.com/allotherwork.html" class="button">All Other Work</a>
+		
+								
+								
+								
+	</div>
+	
+
+
+
+
+
+	<h1 style="font-size:60px;"> Snake Game</h1>
+
+		<p> This was one of my first few arcade games that I worked on at the beginning. </p>
+
+<hr>
+
+<p>Firstly as you can see these are all the images displaying the code that was used to build the Snake Game. </p>
+<br>
+
+
+<p>First piece of code on the first image is the class name: "Main" it's a main class to call unit all other classes by executing the functions made in other classes.</p>
+
+<br>
+
+<ul>
+			<li>1. Main Class</li>
+
+<img src="sc1.jpg" style="width:400px;height:400px;">
+<p> Composed of the the actual game window which we call "Board" that's out object</p>
+<br>
+<p> Then we have a Welcome statement and the exit default operation meaning to close the game when we exit</p>
+
+<br>
+
+
+			<li>2. Our second class Board:</li>
+
+<img src="sc2.jpg" style="width:400px;height:400px;">
+
+<p> As I mentioned earlier in this class we develop the game board for the snake.</p>
+<br>
+<p> we use import to bring in the tools like the layout tool Grid, tool for Key identification and movement, and for array placement in the board. All incorporated into the Frame</p>
+<br>
+<p> We are using array list to set up the board with the width and heigh integers</p>
+<br>
+<p> We have numbers like 2 by 2, and 20 by 20 to develop the size of our grid. For which we use for loop to expand our layout.</p>
+
+<hr>
+
+			<li>Next we have our third class Cubes </li> 
+
+		
+
+<img src="sc3.jpg" style="width:400px;height:400px;">
+
+
+
+<hr>
+		<p> This class as you can see represents even block by an int x and int y. </p>
+
+<br>
+
+<p> we use int like x and y to get the spacing between each block.</p>
+
+<br>
+<br>
+		
+		<li>Next class is DataCube </li> 
+<h4> here we develop the colors of our objectives.</h4>
+<br>
+
+<img src="sc4.jpg" style="width:400px;height:400px;">
+
+<p> Snake color we call the first myColors1</p>
+<p> and our panel which is the layout of the game board is in multiple squares.</p>
+<p> We are using squares so we can organize our objectives like the food, the snake and the movement into number blocks.</p>
+
+<hr>
+
+
+
+<li>Next we have our fifth class named KeyResponses </li> 
+
+<img src="sc5.jpg" style="width:400px;height:400px;">
+
+<br>
+
+<p>We want to develop cases in which we organize our movement and snake-turning with our Key switches.</p>
+<direction of the snake is organized with these cases.</p>
+	
+		
+<hr>
+
+<li>Next we have our sixth class named Navigate </li> 
+
+<img src="sc61.jpg" style="width:400px;height:400px;">
+<img src="sc62.jpg" style="width:400px;height:400px;">
+<img src="sc63.jpg" style="width:400px;height:400px;">
+<img src="sc64.jpg" style="width:400px;height:400px;">
+<img src="sc65.jpg" style="width:400px;height:400px;">
+		
+<br>
+
+<p>This class is quite long because it's focused on the square distribution for the board, also the snake size as you can see which is 3, but that is the starting size, meaning it will grow bigger every time it eats the Cue FOOD.</p>	
+<br>
+
+<p>We also set up a function method called run() and this is true in all cases meaning that it will pause the game and run other function that will be used to perform certain action in the game.</p>	
+
+<p>As you can see in this class the movement and position of the snake is based on the loop that we use to increase the size of the snake whenever the snake reaches the food block. if it reaches the food block, then its size increases, and that makes the game quite different and even more difficult.</p>
+
+<br>
+<br>
+
+<li>The last class in this Snake Game is called SquarePanel </li> 
+
+<img src="sc7.jpg" style="width:400px;height:400px;">
+
+<br>
+
+<p>It focused on the Background color, as you saw earlier whenever this class is called upon, it uses background color to change the movement. This squarePanel which be changes to an object (repaint() ) Whenever we call repaint() we know it's related to background color.</p>	
+
+<hr>
+
+<br>
+
+<h9>So these were all the classes in the Snake Game. These is a list that represents all the components when we run the game.</h9>
+
+<img src="sclasses.jpg" style="width:400px;height:400px;">
+
+<br>
+<br>
+<hr>
+
+<h19>These are the images that show the output once we run the main class of the game</h19>
+
+<img src="ing1.jpg" style="width:400px;height:400px;">
+
+<li>The above is the actual beginning of the game when we run the code </li> 
+
+<li>Right below is our first movement after we start the game with the press of any key </li> 
+
+<img src="ing2.jpg" style="width:400px;height:400px;">
+<br>
+<hr>
+
+<li>The next five images you'll see is a showcase of a various movements that the snake can do on this grid. as shown down below:ing3.jpg</li>
+<br>
+
+<img src="ing4.jpg" style="width:400px;height:400px;">
+<img src="ing5.jpg" style="width:400px;height:400px;">
+<img src="ing6.jpg" style="width:400px;height:400px;">
+<img src="ing7.jpg" style="width:400px;height:400px;">
+<img src="ing8.jpg" style="width:400px;height:400px;">
+
+<p>If you noticed you can see how the tail of the snake is increasing in size because that's what we wanted when we wrote it in the code.</p> 
+
+<br>
+<hr>
+<br>
+
+<p>Next you can see how size has changed throughout the movement we made, and how difficult it is to navigate in a space that's quite limited.
+
+<img src="ing9.jpg" style="width:400px;height:400px;">
+<img src="ing10.jpg" style="width:400px;height:400px;">
+
+<br>
+
+<hr>
+
+<h99> And this is where the game ends the tail of the snake meeting the head of the snake. It's a moment of COLLISION!</h99>
+
+<img src="ing11.jpg" style="width:400px;height:400px;">
+
+<br>
+<br>
+
+<p>Our game end with a closing statement letting us know ANACONDA ATE YOU! Game over</p>
+<br>
+
+<img src="ing12.jpg" style="width:400px;height:400px;">
+<hr>
+
+<br>
+
+<p> This was the development of the Snake Game in Java Program. </p>
+<br>
+
+<p> Thank you!</p>
+<hr>
+
+		
+</body>
+</html>
